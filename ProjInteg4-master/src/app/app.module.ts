@@ -34,6 +34,7 @@ import { PageProfilComponent } from './pages/profil/page-profil/page-profil.comp
 import { ChangerMotDePasseComponent } from './pages/profil/changer-mot-de-passe/changer-mot-de-passe.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { LoaderComponent } from './composants/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import {FormsModule} from '@angular/forms';
     NouvelUtilisateurComponent,
     PageProfilComponent,
     ChangerMotDePasseComponent,
+    LoaderComponent,
 
   ],
   imports: [

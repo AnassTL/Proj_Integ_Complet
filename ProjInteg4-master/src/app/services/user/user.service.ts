@@ -41,6 +41,7 @@ export class UserService {
     localStorage.setItem('connectedUser', JSON.stringify(utilisateur));
   }
 
+
   getConnectedUser(): UtilisateurDto {
     if (localStorage.getItem('connectedUser')) {
       return JSON.parse(localStorage.getItem('connectedUser') as string);
